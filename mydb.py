@@ -7,7 +7,6 @@ dataBase = mysql.connector.connect(
     auth_plugin='mysql_native_password'
 )
 
-
 cursorObject = dataBase.cursor()
 
 cursorObject.execute("CREATE DATABASE temp")
